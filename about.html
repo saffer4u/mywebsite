@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+	<meta name="keywords" content="Aftab Alam">
+            <meta name="author" content="Aftab Alam">
+            <meta name="description" content="Website of Aftab Alam">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aftab Alam : ABOUT</title>
+	<link rel="shortcut icon" type="image/jpg" href="image/aftab.jpg">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link href="stylesheet.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="css/style.css">
+	<script>
+		var canvas = document.getElementById("canvas");
+		var ctx = canvas.getContext("2d");
+
+		ctx.strokeStyle = '#00ffff';
+		ctx.lineWidth = 17;
+		ctx.shadowBlur= 15;
+		ctx.shadowColor = '#00ffff'
+
+		function degToRad(degree){
+			var factor = Math.PI/180;
+			return degree*factor;
+		}
+
+		function renderTime(){
+			var now = new Date();
+			var today = now.toDateString();
+			var time = now.toLocaleTimeString();
+			var hrs = now.getHours();
+			var min = now.getMinutes();
+			var sec = now.getSeconds();
+			var mil = now.getMilliseconds();
+			var smoothsec = sec+(mil/1000);
+      var smoothmin = min+(smoothsec/60);
+
+			//Background
+			gradient = ctx.createRadialGradient(250, 250, 5, 250, 250, 300);
+			gradient.addColorStop(0, "#03303a");
+			gradient.addColorStop(1, "black");
+			ctx.fillStyle = gradient;
+			//ctx.fillStyle = 'rgba(00 ,00 , 00, 1)';
+			ctx.fillRect(0, 0, 500, 500);
+			//Hours
+			ctx.beginPath();
+			ctx.arc(250,250,200, degToRad(270), degToRad((hrs*30)-90));
+			ctx.stroke();
+			//Minutes
+			ctx.beginPath();
+			ctx.arc(250,250,170, degToRad(270), degToRad((smoothmin*6)-90));
+			ctx.stroke();
+			//Seconds
+			ctx.beginPath();
+			ctx.arc(250,250,140, degToRad(270), degToRad((smoothsec*6)-90));
+			ctx.stroke();
+			//Date
+			ctx.font = "25px Helvetica";
+			ctx.fillStyle = 'rgba(00, 255, 255, 1)'
+			ctx.fillText(today, 175, 250);
+			//Time
+			ctx.font = "25px Helvetica Bold";
+			ctx.fillStyle = 'rgba(00, 255, 255, 1)';
+			ctx.fillText(time+":"+mil, 175, 280);
+
+		}
+		setInterval(renderTime, 40);
+	</script>
+
+  
+</head>
+
+<body class="body01" >
+  <canvas id="canvas" width="500" height="500" ></canvas>
+	  
+  
+    <script>
+		var canvas = document.getElementById("canvas");
+		var ctx = canvas.getContext("2d");
+
+		ctx.strokeStyle = '#00ffff';
+		ctx.lineWidth = 17;
+		ctx.shadowBlur= 15;
+		ctx.shadowColor = '#00ffff'
+
+		function degToRad(degree){
+			var factor = Math.PI/180;
+			return degree*factor;
+		}
+
+		function renderTime(){
+			var now = new Date();
+			var today = now.toDateString();
+			var time = now.toLocaleTimeString();
+			var hrs = now.getHours();
+			var min = now.getMinutes();
+			var sec = now.getSeconds();
+			var mil = now.getMilliseconds();
+			var smoothsec = sec+(mil/1000);
+      var smoothmin = min+(smoothsec/60);
+
+			//Background
+			gradient = ctx.createRadialGradient(250, 250, 5, 250, 250, 300);
+			gradient.addColorStop(0, "#03303a");
+			gradient.addColorStop(1, "black");
+			ctx.fillStyle = gradient;
+			//ctx.fillStyle = 'rgba(00 ,00 , 00, 1)';
+			ctx.fillRect(0, 0, 500, 500);
+			//Hours
+			ctx.beginPath();
+			ctx.arc(250,250,200, degToRad(270), degToRad((hrs*30)-90));
+			ctx.stroke();
+			//Minutes
+			ctx.beginPath();
+			ctx.arc(250,250,170, degToRad(270), degToRad((smoothmin*6)-90));
+			ctx.stroke();
+			//Seconds
+			ctx.beginPath();
+			ctx.arc(250,250,140, degToRad(270), degToRad((smoothsec*6)-90));
+			ctx.stroke();
+			//Date
+			ctx.font = "25px Helvetica";
+			ctx.fillStyle = 'rgba(00, 255, 255, 1)'
+			ctx.fillText(today, 175, 250);
+			//Time
+			ctx.font = "25px Helvetica Bold";
+			ctx.fillStyle = 'rgba(00, 255, 255, 1)';
+			ctx.fillText(time+":"+mil, 175, 280);
+
+		}
+		setInterval(renderTime, 40);
+	</script>
+	<p id="p001">"Don't waste your time looking<br>back on what you've lost.<br>Move on, for life is not meant<br>to be traveled backword..."</p>
+
+	<ul id="ul01" style="position:fixed;top:0;width:99.5%;">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="notes.html">Notes</a></li>
+    <li><a href="practical.html">Practical</a></li>
+    <li><a style="background-color:rgba(255, 55, 55,0.2); "  href="#">About</a></li>
+	  
+	  
+	  
+	  <a href="https://www.facebook.com/plugins/follow?href=https%3A%2F%2Fwww.facebook.com%2Faftab.alam4u72&amp" target="_blank"><i style="color:white;margin:2.5px 4px 1px 2px;float: right;" title="Facebook" class="fa fa-facebook-official" aria-hidden="true" ></i></a>
+	  <a href="https://api.whatsapp.com/send?phone=919807950347" target="_blank"><i style="color:white;float: right;margin:2.5px 2px 1px 2px;" title="Whatsapp" class="fa fa-whatsapp" aria-hidden="true"></i></a>
+	  <a href="https://www.instagram.com/saffron_4u/" target="_blank"><i style="color:white;float: right;margin:2.5px 2px 1px 2px;" title="Instagram" class="fa fa-instagram" aria-hidden="true"></i></a>
+  </ul>
+	<div id="about">
+		<img id="myimg" src="image/a1.jpg" alt="My pic" title="Aftab Alam">
+		<p style="text-indent:30px;">"I'm a passionate web designer from Lucknow, Brabanki capable to create traditional and new creative web designed templets.<br> I love to design clean, smart and effective works. Most of my projects focus on identity & branding, print media and web design."<br><br>
+		On this website you are able to check out my work and skill...</p>
+		<p style="text-align:right;font-style:italic;color: rgba(237, 138, 92,0.7);">- Aftab Alam</p>
+	</div>
+	<h1 class="h101">Contect..</h1>
+	<div id="contect">
+		<a href="tel:+919807950347" title="+919807950347"><i class="fa fa-phone" aria-hidden="true" id="ico"> +91-9807950347</i></a><br>
+		
+		<a href="mailto:aftab.alam4u71@gmail.com?Subject=Hello%20Aftab" target="_top"><i class="fa fa-envelope" aria-hidden="true" id="ico" style="font-size:20px;"> aftab.alam4u71@gmail.com</i></a><br>
+		<a href="https://api.whatsapp.com/send?phone=919807950347" target="_blank"><i title="9807950347" id="ico" class="fa fa-whatsapp" aria-hidden="true"> Whatsapp.</i></a><br>
+		
+		<a href="https://www.instagram.com/saffron_4u/" target="_blank"><i title="saffron_4u" class="fa fa-instagram" aria-hidden="true" id="ico"> Instagram.</i></a><br>
+		
+		<iframe src="https://www.facebook.com/plugins/follow?href=https%3A%2F%2Fwww.facebook.com%2Faftab.alam4u72&amp;layout=standard&amp;show_faces=true&amp;colorscheme=light&amp;width=450&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; max-width:200px;max-height: 43px;background-color:  rgba(255, 255, 255,0.4);padding:20px;border-radius: 30px;" allowTransparency="true"></iframe>
+	</div>
+	<p style="text-align: center;color:rgba(255,255,255,0.5);">&copy; 2017 Aftab4u.esy.es, All Rights Reserved.<p>
+</body>
+</html>

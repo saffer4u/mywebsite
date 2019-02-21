@@ -1,0 +1,124 @@
+<DOCTYPE html>
+    <html lang="en-US">
+        <head>
+	
+        <link rel="shortcut icon" type="image/jpg" href="image/aftab.jpg">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+           
+            <title>Aftab Alam : NOTES</title>
+            <link href="stylesheet.css" rel="stylesheet" type="text/css">
+            <meta name="keywords" content="Aftab Alam">
+            <meta name="author" content="Aftab Alam">
+            <meta name="description" content="Website of Aftab Alam">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+			
+			<script>
+				function clock1(){
+
+//Save the times in variables
+
+var today = new Date();
+
+var hours = today.getHours();
+var minutes = today.getMinutes();
+var seconds = today.getSeconds();
+
+
+//Set the AM or PM time
+
+if (hours >= 12){
+  meridiem = " PM";
+}
+else {
+  meridiem = " AM";
+}
+
+
+//convert hours to 12 hour format and put 0 in front
+if (hours>12){
+	hours = hours - 12;
+}
+else if (hours===0){
+	hours = 12;	
+}
+
+//Put 0 in front of single digit minutes and seconds
+
+if (minutes<10){
+	minutes = "0" + minutes;
+}
+else {
+	minutes = minutes;
+}
+
+if (seconds<10){
+	seconds = "0" + seconds;
+}
+else {
+	seconds = seconds;
+}
+
+
+document.getElementById("clock1").innerHTML = (hours + ":" + minutes + ":" + seconds + meridiem);
+
+}
+
+
+setInterval('clock1()', 1000);
+			</script>
+			
+        </head>
+        <body class="body01">
+		
+			<marquee behavior="alternate" id="p01">"Don't waste your time looking<br>&nbsp;&nbsp; back on what you've lost.<br>Move on, for life is not meant<br>&nbsp;&nbsp; to be traveled backword..."</marquee>
+            <img style="opacity: 0.4;" id="img01" type="image/gif" src="image/bookgif.gif">
+  <ul id="ul01">
+    <li><a href="index.html">Home</a></li>
+    <li style="background-color:rgba(255, 55, 55,0.2); "><a href="#">Notes</a></li>
+    <li><a href="practical.html">Pactical</a></li>
+    <li><a href="about.html">About</a></li>
+	  <a href="https://www.facebook.com/plugins/follow?href=https%3A%2F%2Fwww.facebook.com%2Faftab.alam4u72&amp" target="_blank"><i style="color:white;margin:2.5px 4px 1px 2px;float: right;" title="Facebook" class="fa fa-facebook-official" aria-hidden="true" ></i></a>
+	  <a href="https://api.whatsapp.com/send?phone=919807950347" target="_blank"><i style="color:white;float: right;margin:2.5px 2px 1px 2px;" title="Whatsapp" class="fa fa-whatsapp" aria-hidden="true"></i></a>
+	  <a href="https://www.instagram.com/saffron_4u/" target="_blank"><i style="color:white;float: right;margin:2.5px 2px 1px 2px;" title="Instagram" class="fa fa-instagram" aria-hidden="true"></i></a>
+  </ul>
+				<div id="clock1">
+  
+</div>
+			<h1 class="h101">Books:-</h1>
+			<div class="div02">
+				<img class="img02" src="image/webbook.jpg" alt="Web designing book" title="Web Design with HTML and CSS" height="200px" width="150px">
+				<h3 class="h301">Web Design with HTML and CSS</h3>
+				<p class="p02">307 Pages.<br>24.12 MB.</p>
+				<a href="https://stevebraysduis.files.wordpress.com/2014/02/web-design-with-html-and-css-digital-classroom.pdf" target="_blank"><i id="download" class="fa fa-download" aria-hidden="true"> Download</i></a>
+			</div>
+			
+			<div class="div02">
+				<img class="img02" src="image/webbook1.jpg" alt="Ethical Hacking book" title="Ethical Hacking and Penetration Testing Guide" height="200px" width="150px">
+				<h3 class="h301">Ethical Hacking and Penetration Testing Guide</h3>
+				<p class="p02">223 Pages.<br>22.44 MB.</p>
+				<a href="http://www.arthur-training.com/Downloads/ITT/Ethical%20Hacking%20and%20Penetration%20Testing%20Guide%20-%20Baloch,%20Rafay.pdf" target="_blank"><i id="download" class="fa fa-download" aria-hidden="true"> Download</i></a>
+			</div>
+			
+			<div class="div02">
+				<img class="img02" src="image/webbook2.jpg" alt="The Basics of hacking and penetration Testing" title="The Basics of hacking and penetration Testing" height="200px" width="150px">
+				<h3 class="h301">The Basics of hacking and penetration Testing</h3>
+				<p class="p02">178 Pages.<br>6.7 MB.</p>
+				<a href="https://4matperu.files.wordpress.com/2015/03/syngress-the-basics-of-hacking-and-penetration-testing-aug-2011.pdf" target="_blank"><i id="download" class="fa fa-download" aria-hidden="true"> Download</i></a>
+			</div>
+			
+			<div class="div02">
+				<img class="img02" src="image/webbook3.jpg" alt="Formulas and Functions with MS Excel_2007" title="Formulas and Functions with MS Excel_2007" height="200px" width="150px">
+				<h3 class="h301">Formulas and Functions with MS Excel_2007</h3>
+				<p class="p02">540 Pages.<br>18.6 MB.</p>
+				<a href="https://grabebook.files.wordpress.com/2011/12/formulas-and-functions-with-ms-excel_2007.pdf" target="_blank"><i id="download" class="fa fa-download" aria-hidden="true"> Download</i></a>
+			</div>
+			
+			<div class="div02">
+				<img class="img02" src="image/webbook4.jpg" alt="ADOBE® PHOTOSHOP" title="ADOBE® PHOTOSHOP" height="200px" width="150px">
+				<h3 class="h301">ADOBE® PHOTOSHOP</h3>
+				<p class="p02">746 Pages.<br>15.67 MB.</p>
+				<a href="http://help.adobe.com/archive/fr/photoshop/cs6/photoshop_reference.pdf" target="_blank"><i id="download" class="fa fa-download" aria-hidden="true"> Download</i></a>
+			</div>
+			<p style="text-align: center;color:rgba(255,255,255,0.5);">&copy; 2017 Aftab4u.esy.es, All Rights Reserved.<p>
+		</body>
+	</html>

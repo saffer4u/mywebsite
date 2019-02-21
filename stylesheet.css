@@ -1,0 +1,351 @@
+/*html,body{width:100%;height: 100%;}*/
+
+.body01
+{
+    font-size: 100%;
+    background-color:darkgrey;
+    background-image:url("image/bg1.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:0;
+    padding:0;
+}
+#p01
+{
+    font-style: italic;
+    color: rgba(237, 180, 234,0.9);
+    font-variant: small-caps;
+    letter-spacing: 10px;
+    font-size: 20px;
+    margin-top:10;
+    word-spacing: 10px;
+    width: 100%;
+	position:absolute;
+	top:10;
+	
+}
+ #img01
+{
+	opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+	width: 100%;
+	max-height: 400px;
+	margin-bottom: 0px;
+}
+#ul01{background-color:rgba(1, 7, 17,0.8);
+      overflow: hidden;
+      list-style-type: none;
+      margin-top:0;
+      padding:0;
+      position: sticky;
+	  position: -webkit-sticky;
+      top: 1px;
+	  border: 3px double rgba(237, 138, 92,0.8);
+	  border-radius:4px;
+      }
+   
+   li{float: left;}
+   li a{
+        color:rgba(237, 138, 92,0.8);
+        text-decoration: none;
+        text-align: center;
+        padding:10px;
+        }
+   li a:hover{color:rgb(237, 180, 192);}
+
+/*#clock {
+   text-align: center;
+   margin-top: 0;
+   font-size: 60px;
+   font-family: Baskerville, Georgia;
+	color: rgba(237, 138, 92,0.7);
+	border:26px groove rgba(255,255,255,0.4);
+	padding:10px 10px 20px 10px;
+	border-radius: 30px;
+	background-color: rgba(0,255,255,0.1);
+	
+}*/
+#clock1,#clock
+{
+	text-align: center;
+	font-size: 60px;
+   font-family: Baskerville, Georgia;
+	color: rgba(237, 138, 92,0.7);
+	margin:0px 40px;
+	text-shadow: 3px 2px rgba(0,0,0,0.9);
+}
+
+#p02{
+    color:rgba(255,255,255,0.5);
+    font-size:30px;
+    
+    text-align: center;
+    font-variant: small-caps;
+    font-family: cursive,"Comic Sans MS",monospace, sans-serif;
+    letter-spacing: 10px;}
+ #p02:hover{color: rgba(237, 138, 92,0.7);}
+#p03{text-align: right;
+     color: #fffef4;
+     padding:0px 30px 0px 0px;
+	clear:left;
+     }
+.h101
+{
+	font-size:40px;
+	margin-left: 10px;
+	font-family: cursive,"Comic Sans MS",monospace, sans-serif;
+	color: rgba(237, 138, 92,0.9);
+	text-shadow: 3px 2px rgba(55,255,255,0.3);
+	
+	
+}
+#img02
+{
+	float:right;
+	max-width: 240px;
+	margin:auto;
+	display:block;
+	border-radius:8px;
+	opacity: 0.8;
+	margin-left: 10px;
+	border:3px solid rgba(255,255,255,0.4);
+}
+#div01
+{
+	margin:4px;
+	border:26px double rgba(255,255,255,0.4);
+	min-height: 350px;
+	padding:10px;
+	border-radius:30px;
+	
+	
+}
+#h201,#h301
+{
+	font-family: cursive,"Comic Sans MS",monospace, sans-serif;
+	color: rgba(237, 138, 92,0.7);
+}
+#p04,#p05,#p06
+{
+	text-align:justify;
+	color:rgba(255,255,255,0.7);
+	text-indent:30px;
+	font-family:cursive,"Comic Sans MS",monospace, sans-serif;
+}
+#p07:link,#p07:visited
+{
+	display:block;
+	background-color:rgba(237, 138, 92,0.4);
+	padding:10px;
+	text-align:center;
+	overflow:hidden;
+	letter-spacing: 10px;
+	font-family: cursive,"Comic Sans MS",monospace, sans-serif;
+	border-radius:7px;
+	color:rgba(255,255,255,0.4);
+	text-decoration:none;
+}
+#p07:hover
+{
+	color:rgba(255,255,255,0.9);
+	background-color:rgba(237, 138, 92,0.8)
+}
+#p07:active:hover
+{
+	color:rgba(25,255,255,0.9);
+	background-color:rgba(255,255,255,0.4);
+}
+.div02
+{
+	border:26px double rgba(255,255,255,0.4);
+	border-radius: 30px;
+	padding:10px;
+	overflow:auto;
+	text-align:center;
+	font-family: cursive,"Comic Sans MS",monospace, sans-serif;
+	margin:10px 0px 30px 0px;
+	
+}
+.img02
+{
+	
+	float: right;
+	opacity: 0.7;
+	border-radius:7px;
+	 -webkit-transition: height 1s, width 1s; /* Safari */
+    transition: height 1s, width 1s;
+	transition-timing-function: ease;
+	
+	
+	
+}
+.img02:hover
+{
+	height:360px;
+	width:260px;
+}
+#download
+{
+	color:white;
+	line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+.h301
+{
+	color:rgba(237, 138, 92,0.7);
+	font-size:25px;
+	letter-spacing: 6px;
+    line-height: 2;
+    vertical-align: middle;
+	
+}
+.p02
+{
+    color:rgba(237, 138, 92,0.6);
+	font-size: 15px;
+	line-height: 2;
+    
+    vertical-align: middle;
+}
+
+#frame
+{
+	margin:auto;
+	display:block;
+	max-width: 70%;
+	margin-top:20px;
+	border-radius: 30px;
+	border:26px groove rgba(237, 138, 92,0.7);
+
+}
+#divpr{
+    border:15px groove rgba(255, 255,255,0.3);
+	margin:40px 3px 20px 3px;
+	padding:0px;
+	border-radius:20px;
+	
+}
+#divprin
+{
+	padding:20px;
+	border-bottom:15px groove rgba(255, 255,255,0.3);
+}
+.lesson
+{
+	color:rgba(237, 138, 92,0.7);
+	font-size:25px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-align:justify;
+}
+.lesson:hover
+{
+	color:rgba(237, 13, 9,0.6);
+}
+.lesson:active
+{
+	color:rgba(255,127,127,0.7);
+}
+.up
+{
+	color:rgba(2, 138, 92,0.7);
+	font-size:27px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	
+}
+.up:hover
+{
+	color:rgba(255,127,127,0.7);
+}
+.up:active
+{
+	color:rgba(255,255,255,0.8);
+}
+#canvas
+{
+    opacity: 0.6;
+	
+	border-radius: 30px;
+	border:30px double rgba(0,255,255,0.7);
+	width:250px;
+	float:left;
+	margin:10px;
+	
+	
+	
+	
+}
+#p001{
+	font-style: italic;
+    color: rgba(255, 255, 255,0.6);
+    font-variant: small-caps;
+    letter-spacing: 10px;
+    font-size: 30px;
+    word-spacing: 10px;
+	text-align:center;
+	padding-top:90px;
+    font-weight: bold;
+}
+#p001:hover
+{
+	color: rgba(237, 138, 92,0.7);
+}
+#about
+{
+	clear:left;
+	text-align:justify;
+	color: rgba(255, 255, 255,0.6);
+	margin:10px;
+	text-transform: capitalize;
+	font-variant:small-caps;
+	font-size:20px;
+	margin-top:20px;
+	border:30px double rgba(0,255,255,0.4);
+	border-radius: 30px;
+	overflow: auto;
+	padding: 20px;
+	word-spacing: 5px;
+	
+}
+#myimg
+{
+	float:right;
+	width:200px;
+	height: 200px;
+	border-radius: 30px;
+	margin:10px;
+	margin-left:30px;
+	border:2px solid black;
+}
+#about:hover
+{
+	
+	color: rgba(237, 138, 92,0.7);
+}
+#contect
+{
+	border:30px double rgba(0,255,255,0.4);
+	border-radius: 30px;
+	overflow: auto;
+	padding:10px;
+	text-align:center;
+	margin:0px;
+}
+#ico
+{
+	 color:white;
+	font-size:35px;
+	line-height: 1.5;
+}
+#ico:hover
+{
+	color: rgba(237, 138, 92,0.7);
+}
+#ico:active
+{
+	color:rgba(237, 13, 9,0.6);
+}
