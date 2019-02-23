@@ -79,12 +79,14 @@
 
 #p02{
     color:rgba(255,255,255,0.5);
-    font-size:30px;
+    font-size: 4vw;
     
     text-align: center;
     font-variant: small-caps;
     font-family: cursive,"Comic Sans MS",monospace, sans-serif;
-    letter-spacing: 10px;}
+	letter-spacing: 1vw;
+	text-shadow: 2px 3px 4px black;
+}
  #p02:hover{color: rgba(237, 138, 92,0.7);}
 #p03{text-align: right;
      color: #fffef4;
