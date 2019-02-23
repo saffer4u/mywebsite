@@ -14,16 +14,17 @@
 }
 #p01
 {
-    font-style: italic;
-    color: rgba(237, 180, 234,0.9);
-    font-variant: small-caps;
-    letter-spacing: 10px;
-    font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+    color: rgba(0, 255, 157, 0.9);
+	font-variant: small-caps;
+    letter-spacing: 1vw;
+    font-size: 3vw;
     margin-top:10;
-    word-spacing: 10px;
+    word-spacing: 1vw;
     width: 100%;
 	position:absolute;
-	top:10;
+	top:8;
 	
 }
  #img01
